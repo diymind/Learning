@@ -17,3 +17,4 @@ else:
 print bothnames
 print firstnames[1] + lastnames[1]
 print firstnames[0] + lastnames[0]
+print "My name is %s , and the loop above is broken!" % name
