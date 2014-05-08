@@ -9,6 +9,7 @@ name = "Nicholas Fazzolari"
 # basic if/else statement checking a condition of the variable names.
 if name is not "nick":
     print "Name is not nick!"
+    #why is the else not printing the name I have in the variable?
 else:
     print "Name stored is %s" %name
 
