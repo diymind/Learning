@@ -5,16 +5,19 @@ firstnames = ['Lizlo','Nicklo']
 lastnames = [' Pink',' Brown']
 bothnames = firstnames + lastnames
 name = "Nicholas Fazzolari"
+nameInput = raw_input('Type ur name biotch!')
+if nameInput == 'nick' or nameInput == 'Nick':
+    print nameInput
+else:
+    print 'Fuck off!'
+
 
 # basic if/else statement checking a condition of the variable names.
 if name is not "nick":
-    print "Name is not nick!"
-    #why is the else not printing the name I have in the variable?
-else:
-    print "Name stored is %s" %name
+    print 'The name is ' + name + ' , which is not nick'
 
 # adding the first names and last names together from the respective lists
 print bothnames
 print firstnames[1] + lastnames[1]
 print firstnames[0] + lastnames[0]
-print "My name is %s , and the loop above is broken!" % name
+print "My name is %s , and I need to get better at this shit..." % name
